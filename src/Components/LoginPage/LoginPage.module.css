@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+.googleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background: #4385f4;
+    position: relative;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.googleContainer img {
+    width: 12.5%;
+    height: 100%;
+    object-fit: contain;
+    left: 10px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.githubContainer {
+    background: rgb(56, 56, 56);
+}
+
+.twitterContainer {
+    background: #00a2f4;
+}
+
+.twitterContainer img {
+    width: 15%;
+    left: 8px;
+}
+
+.loginPage {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    flex-direction: column;
+    min-width: 40vw;
+}

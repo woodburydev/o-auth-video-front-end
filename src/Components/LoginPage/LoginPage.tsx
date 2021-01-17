@@ -15,7 +15,7 @@ export default function LoginPage() {
     }
     
     const twitterLogin = () => {
-        window.location.href = "http://o-auth-video-backend.herokuapp.com/auth/twitter"
+        window.location.href = "https://o-auth-video-backend.herokuapp.com/auth/twitter"
     }
 
 

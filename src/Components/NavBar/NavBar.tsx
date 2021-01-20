@@ -10,7 +10,7 @@ export default function NavBar() {
     const userObject = useContext(myContext) as IUser;
 
     const logout = () => {
-        axios.get("https://o-auth-video-backend.herokuapp.com/auth/logout", {
+        axios.get("http://localhost:4000/auth/logout", {
             withCredentials: true
         }).then((res: AxiosResponse) => {
             if (res.data === "done") {

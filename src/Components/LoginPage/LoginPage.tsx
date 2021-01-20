@@ -7,15 +7,15 @@ import styles from './LoginPage.module.css';
 export default function LoginPage() {
 
     const googleLogin = () => {
-        window.open("https://o-auth-video-backend.herokuapp.com/auth/google", "_self");
+        window.open("http://localhost:4000/auth/google", "_self");
     }
 
     const githubLogin = () => {
-        window.open("https://o-auth-video-backend.herokuapp.com/auth/github", "_self");
+        window.open("http://localhost:4000/auth/github", "_self");
     }
     
     const twitterLogin = () => {
-        window.location.href = "https://o-auth-video-backend.herokuapp.com/auth/twitter"
+        window.location.href = "http://localhost:4000/auth/twitter"
     }
 
 
